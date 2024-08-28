@@ -12,5 +12,9 @@ button {
   color: rgb(1, 167, 253);
   font-size: 14px;
   cursor: pointer;
+  @media (max-width: 650px) {
+    width: 100%;
+    text-align: end;
+  }
 }
 </style>

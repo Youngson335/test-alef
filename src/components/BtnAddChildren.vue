@@ -25,6 +25,9 @@ button {
   border: 2px solid rgba(1, 167, 253, 1);
   border-radius: 100px;
   max-width: 204px;
+  @media (max-width: 400px) {
+    padding: 5px 10px;
+  }
 }
 .children__img {
   img {

@@ -15,8 +15,6 @@ export default {
 <style lang="scss">
 .form__title {
   width: 100%;
-  max-width: 616px;
-  margin: 0 auto;
   margin-bottom: 20px;
   h3 {
     font-size: 16px;
