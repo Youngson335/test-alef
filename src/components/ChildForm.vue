@@ -60,6 +60,21 @@ label {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  animation: showForm 0.3s ease;
+  @keyframes showForm {
+    0% {
+      opacity: 0;
+      transform: translateY(15px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+  @media (max-width: 650px) {
+    justify-content: center;
+    flex-direction: column;
+  }
 }
 .child__info {
   border: 1px solid rgba(241, 241, 241, 1);
@@ -68,5 +83,9 @@ label {
   padding: 8px 16px;
   box-sizing: border-box;
   border-radius: 4px;
+  @media (max-width: 650px) {
+    margin-bottom: 10px;
+    max-width: 100%;
+  }
 }
 </style>

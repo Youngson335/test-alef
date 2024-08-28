@@ -80,7 +80,6 @@ form {
   align-items: center;
   flex-direction: column;
   width: 100%;
-  max-width: 616px;
   margin: 0 auto;
   width: 100%;
 }

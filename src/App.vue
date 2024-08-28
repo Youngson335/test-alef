@@ -24,4 +24,11 @@ body {
   font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
 }
+.main {
+  max-width: 616px;
+  margin: 0 auto;
+  @media (max-width: 650px) {
+    max-width: calc(100% - 60px);
+  }
+}
 </style>
